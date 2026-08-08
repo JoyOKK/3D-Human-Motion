@@ -195,12 +195,4 @@
 
 ---
 
-## 更新日志 (Changelog)
 
-- **2026-08-08**:重构为分类表格形式,补充 Text-to-Motion / 扩散 / 音乐驱动 / 交互 / 风格 / 重定向 / 物理 / 预测 / 数据集 / 表征 等方向经典与前沿工作。
-- **2026-08-08**:参考 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion),精选补充约 67 篇 2024–2026 顶会/里程碑工作。
-- **2026-08-08**:依据 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion) 的原始链接,将上述新增条目的 arXiv 搜索链全部替换为 paper/project/code 直链。
-
-## 贡献方式 (Contributing)
-
-欢迎通过 PR / Issue 补充新论文,建议按以下格式提供:`年份 | 会议或期刊 | 方法名 | 一句话核心方案 | paper/code/project 链接`。
