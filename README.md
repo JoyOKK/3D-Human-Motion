@@ -8,7 +8,7 @@
 >
 > 本列表会根据时间**定期更新**,方便查阅参考。欢迎补充与勘误。
 >
-> 部分近年条目参考自 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion)。标注为 `[arxiv]` 的链接为**按标题生成的 arXiv 搜索链接**(点击后在 arXiv 检索到对应论文),尚未逐一替换为直链。
+> 部分近年条目参考自 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion),其中新增条目的 `[paper]` / `[project]` / `[code]` 链接均取自该项目。
 
 ---
 
@@ -31,17 +31,17 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2026 | CVPR | Next-Scale AR | 下一尺度自回归预测做文本到动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Next-Scale+Autoregressive+Text-to-Motion+Generation) |
-| 2026 | CVPR | LaMoGen | LLM 引导的符号推理,把语言映射为动作 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=LaMoGen+Language+Motion+LLM+Symbolic+Inference) |
-| 2025 | ICML | Being-M0 | 百万级人体动作数据,探索动作生成模型的规模化 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Being-M0+Scaling+Motion+Generation+Million-Level) |
-| 2025 | ICCV | GENMO | 统一生成/重建/预测的通才人体动作模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=GENMO+Generalist+Model+Human+Motion) |
-| 2025 | CVPR | MARDM | 重新思考扩散用于文本驱动动作(掩码自回归扩散) | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MARDM+Rethinking+Diffusion+Text-Driven+Human+Motion) |
-| 2025 | CVPR | ScaMo | 探索自回归动作生成模型中的缩放律 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=ScaMo+Scaling+Law+Autoregressive+Motion+Generation) |
-| 2025 | ICLR | LaMP | 语言-动作预训练,服务生成/检索/描述 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=LaMP+Language-Motion+Pretraining) |
-| 2025 | ICLR | Motion-Agent | 基于 LLM 的对话式动作生成框架 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Motion-Agent+Conversational+Framework+LLM+Motion) |
-| 2025 | IJCV | Fg-T2M++ | LLM 增强的细粒度文本驱动动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Fg-T2M+++LLMs+Fine-Grained+Text+Motion+Generation) |
-| 2025 | Arxiv | Motion-R1 | 思维链推理 + 强化学习做动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Motion-R1+Chain-of-Thought+Reinforcement+Learning+Motion) |
-| 2025 | Arxiv | MotionGPT3 | 将人体动作作为"第二模态"的统一模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionGPT3+Human+Motion+Second+Modality) |
+| 2026 | CVPR | Next-Scale AR | 下一尺度自回归预测做文本到动作生成 | [[paper]](https://arxiv.org/abs/2604.03799) |
+| 2026 | CVPR | LaMoGen | LLM 引导的符号推理,把语言映射为动作 | [[paper]](https://arxiv.org/abs/2603.11605) |
+| 2025 | ICML | Being-M0 | 百万级人体动作数据,探索动作生成模型的规模化 | [[paper]](https://arxiv.org/abs/2410.03311) |
+| 2025 | ICCV | GENMO | 统一生成/重建/预测的通才人体动作模型 | [[project]](https://research.nvidia.com/labs/dair/genmo/) |
+| 2025 | CVPR | MARDM | 重新思考扩散用于文本驱动动作(掩码自回归扩散) | [[paper]](https://arxiv.org/abs/2411.16575) |
+| 2025 | CVPR | ScaMo | 探索自回归动作生成模型中的缩放律 | [[project]](https://shunlinlu.github.io/ScaMo/) |
+| 2025 | ICLR | LaMP | 语言-动作预训练,服务生成/检索/描述 | [[paper]](https://openreview.net/forum?id=LYawG8YkPa) |
+| 2025 | ICLR | Motion-Agent | 基于 LLM 的对话式动作生成框架 | [[project]](https://knoxzhao.github.io/Motion-Agent/) |
+| 2025 | IJCV | Fg-T2M++ | LLM 增强的细粒度文本驱动动作生成 | [[paper]](https://arxiv.org/abs/2502.05534) |
+| 2025 | Arxiv | Motion-R1 | 思维链推理 + 强化学习做动作生成 | [[project]](https://motion-r1.github.io/) |
+| 2025 | Arxiv | MotionGPT3 | 将人体动作作为"第二模态"的统一模型 | [[code]](https://github.com/OpenMotionLab/MotionGPT3) |
 | 2024 | CVPR | MoMask | 残差 VQ + 掩码生成式 Transformer,高质量文本到动作 | [[project]](https://ericguo5513.github.io/momask/) [[code]](https://github.com/EricGuo5513/momask-codes) |
 | 2023 | NeurIPS | MotionGPT | 将动作视为一种"外语",用统一 LLM 处理多种动作任务 | [[project]](https://motion-gpt.github.io/) [[code]](https://github.com/OpenMotionLab/MotionGPT) |
 | 2023 | CVPR | T2M-GPT | VQ-VAE 离散化 + GPT 自回归生成,简单强基线 | [[project]](https://mael-zys.github.io/T2M-GPT/) [[code]](https://github.com/Mael-zys/T2M-GPT) |
@@ -54,17 +54,17 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | ICCV | MotionLab | 用"动作-条件-动作"范式统一动作生成与编辑 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionLab+Motion-Condition-Motion+Generation+Editing) |
-| 2025 | ICCV | MotionStreamer | 因果隐空间中扩散自回归的流式动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionStreamer+Streaming+Diffusion+Autoregressive+Causal+Latent) |
-| 2025 | ICCV | ControlMM | 可控的掩码动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=ControlMM+Controllable+Masked+Motion+Generation) |
-| 2025 | ICCV | Less Is More | 用稀疏关键帧改进动作扩散模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Less+Is+More+Sparse+Keyframes+Motion+Diffusion) |
-| 2025 | CVPR | EnergyMoGen | 隐空间能量扩散做组合式动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=EnergyMoGen+Compositional+Energy-Based+Diffusion+Motion) |
-| 2025 | CVPR | SALAD | 骨架感知隐扩散做文本动作生成与编辑 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SALAD+Skeleton-aware+Latent+Diffusion+Motion+Editing) |
-| 2025 | ICLR | DART | 扩散自回归模型做实时文本驱动动作控制 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=DART+Diffusion+Autoregressive+Real-Time+Text-Driven+Motion) |
-| 2025 | CVPR | MotionReFit | 动态动作混合做通用动作编辑 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionReFit+Dynamic+Motion+Blending+Editing) |
-| 2024 | ECCV | MotionLCM | 潜在一致性模型做实时可控动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionLCM+Real-time+Controllable+Latent+Consistency+Motion) |
-| 2024 | CVPR | FlowMDM | 混合位置编码做无缝长动作合成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=FlowMDM+Seamless+Human+Motion+Composition+Positional) |
-| 2024 | ECCV | BAMM | 双向自回归动作模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=BAMM+Bidirectional+Autoregressive+Motion+Model) |
+| 2025 | ICCV | MotionLab | 用"动作-条件-动作"范式统一动作生成与编辑 | [[project]](https://diouo.github.io/motionlab.github.io/) |
+| 2025 | ICCV | MotionStreamer | 因果隐空间中扩散自回归的流式动作生成 | [[project]](https://zju3dv.github.io/MotionStreamer/) |
+| 2025 | ICCV | ControlMM | 可控的掩码动作生成 | [[project]](https://www.ekkasit.com/ControlMM-page/) |
+| 2025 | ICCV | Less Is More | 用稀疏关键帧改进动作扩散模型 | [[paper]](https://arxiv.org/abs/2503.13859) |
+| 2025 | CVPR | EnergyMoGen | 隐空间能量扩散做组合式动作生成 | [[project]](https://jiro-zhang.github.io/EnergyMoGen/) |
+| 2025 | CVPR | SALAD | 骨架感知隐扩散做文本动作生成与编辑 | [[project]](https://seokhyeonhong.github.io/projects/salad/) |
+| 2025 | ICLR | DART | 扩散自回归模型做实时文本驱动动作控制 | [[project]](https://zkf1997.github.io/DART/) |
+| 2025 | CVPR | MotionReFit | 动态动作混合做通用动作编辑 | [[project]](https://awfuact.github.io/motionrefit/) |
+| 2024 | ECCV | MotionLCM | 潜在一致性模型做实时可控动作生成 | [[project]](https://dai-wenxun.github.io/MotionLCM-page/) |
+| 2024 | CVPR | FlowMDM | 混合位置编码做无缝长动作合成 | [[project]](https://barquerogerman.github.io/FlowMDM/) |
+| 2024 | ECCV | BAMM | 双向自回归动作模型 | [[project]](https://exitudio.github.io/BAMM-page/) |
 | 2024 | TPAMI | MotionDiffuse | 首个基于扩散的文本驱动动作框架,概率映射 + 细粒度身体部位控制 | [[project]](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html) [[code]](https://github.com/mingyuan-zhang/MotionDiffuse) |
 | 2024 | ICLR | OmniControl | 任意关节的时空控制信号统一注入扩散模型 | [[project]](https://neu-vi.github.io/omnicontrol/) [[code]](https://github.com/neu-vi/OmniControl) |
 | 2024 | ICLR | PriorMDM | 将预训练动作扩散当作生成先验,做长序列/双人/控制等下游任务 | [[project]](https://priormdm.github.io/priorMDM-page/) [[code]](https://github.com/priorMDM/priorMDM) |
@@ -83,13 +83,13 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | NeurIPS | MEGADance | 专家混合(MoE)架构做风格感知 3D 舞蹈生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MEGADance+Mixture-of-experts+genre+dance+generation) |
-| 2025 | SIGGRAPH | DuetGen | 音乐驱动双人舞蹈的层次掩码建模 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=DuetGen+Music+Two-Person+Dance+Masked+Modeling) |
-| 2025 | ICCV | GestureLSM | 潜在捷径 + 时空建模的共语手势生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=GestureLSM+Co-Speech+Gesture+Spatial-Temporal+Shortcut) |
-| 2025 | ICCV | SemTalk | 帧级语义强调的整体共语动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SemTalk+Holistic+Co-speech+Motion+Semantic+Emphasis) |
-| 2025 | ICCV | Align Your Rhythm | 节奏感知特征生成高对齐舞姿 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Align+Your+Rhythm+Dance+Rhythm-Aware+Feature) |
-| 2025 | AAAI | UniMuMo | 统一文本 / 音乐 / 动作的联合生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=UniMuMo+Unified+Text+Music+Motion+Generation) |
-| 2024 | CVPR | EMAGE | 表情掩码音频手势建模的整体共语手势生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=EMAGE+Holistic+Co-Speech+Gesture+Masked+Audio) |
+| 2025 | NeurIPS | MEGADance | 专家混合(MoE)架构做风格感知 3D 舞蹈生成 | [[code]](https://github.com/XulongT/MEGADance) |
+| 2025 | SIGGRAPH | DuetGen | 音乐驱动双人舞蹈的层次掩码建模 | [[paper]](https://arxiv.org/pdf/2506.18680) |
+| 2025 | ICCV | GestureLSM | 潜在捷径 + 时空建模的共语手势生成 | [[project]](https://andypinxinliu.github.io/GestureLSM/) |
+| 2025 | ICCV | SemTalk | 帧级语义强调的整体共语动作生成 | [[project]](https://xiangyuezhang.com/SemTalk/) |
+| 2025 | ICCV | Align Your Rhythm | 节奏感知特征生成高对齐舞姿 | [[project]](https://danceba.github.io/) |
+| 2025 | AAAI | UniMuMo | 统一文本 / 音乐 / 动作的联合生成 | [[project]](https://hanyangclarence.github.io/unimumo_demo/) |
+| 2024 | CVPR | EMAGE | 表情掩码音频手势建模的整体共语手势生成 | [[project]](https://pantomatrix.github.io/EMAGE/) |
 | 2023 | CVPR | EDGE | 基于扩散的可编辑舞蹈生成,支持关键帧/局部编辑与物理合理性 | [[project]](https://edge-dance.github.io/) [[code]](https://github.com/Stanford-TML/EDGE) |
 | 2023 | CVPR | TalkSHOW | 从语音生成全身(脸+手+身)3D 说话人动作 | [[project]](https://talkshow.is.tue.mpg.de/) [[code]](https://github.com/yhw-yhw/TalkSHOW) |
 | 2022 | CVPR | Bailando | 动作 VQ-VAE 记忆库 + actor-critic GPT,音乐节拍对齐舞蹈 | [[paper]](https://arxiv.org/abs/2203.13055) [[code]](https://github.com/lisiyao21/Bailando) |
@@ -99,16 +99,16 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2026 | CVPR | InterPrior | 物理仿真下可扩展的人-物交互生成控制 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=InterPrior+Physics-Based+Human-Object+Interactions+Generative) |
-| 2025 | CVPR | InterMimic | 面向物理仿真的全身人-物交互通用控制 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=InterMimic+Whole-Body+Physics-Based+Human-Object+Interactions) |
-| 2025 | ICCV | TriDi | 人/物/交互三边扩散的联合生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=TriDi+Trilateral+Diffusion+Humans+Objects+Interactions) |
-| 2025 | CVPR | ChainHOI | 基于关节运动链建模的人-物交互生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=ChainHOI+Kinematic+Chain+Human-Object+Interaction) |
-| 2025 | CVPR | TokenHSI | 任务令牌化统一物理人-场景交互合成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=TokenHSI+Physical+Human-Scene+Interactions+Task+Tokenization) |
-| 2025 | ICCV | SIMS | 结合真实脚本规划模拟人-场景交互 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SIMS+Simulating+Human-Scene+Interactions+Script+Planning) |
-| 2025 | ICLR | InterMask | 协同掩码建模生成 3D 人-人交互 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=InterMask+3D+Human+Interaction+Collaborative+Masked) |
-| 2025 | CVPR | TIMotion | 高效人-人动作生成的时序交互框架 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=TIMotion+Temporal+Interactive+Human-Human+Motion) |
-| 2024 | SIGGRAPH Asia | LINGO | 文本指令驱动的自主角色-场景交互合成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=LINGO+Character-Scene+Interaction+Synthesis+Text+Instruction) |
-| 2024 | IJCV | InterGen | 复杂交互下的扩散式多人体动作生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=InterGen+Diffusion+Multi-human+Motion+Interactions) |
+| 2026 | CVPR | InterPrior | 物理仿真下可扩展的人-物交互生成控制 | [[project]](https://sirui-xu.github.io/InterPrior/) |
+| 2025 | CVPR | InterMimic | 面向物理仿真的全身人-物交互通用控制 | [[project]](https://sirui-xu.github.io/InterMimic/) |
+| 2025 | ICCV | TriDi | 人/物/交互三边扩散的联合生成 | [[project]](https://virtualhumans.mpi-inf.mpg.de/tridi/) |
+| 2025 | CVPR | ChainHOI | 基于关节运动链建模的人-物交互生成 | [[paper]](https://arxiv.org/abs/2503.13130) |
+| 2025 | CVPR | TokenHSI | 任务令牌化统一物理人-场景交互合成 | [[project]](https://liangpan99.github.io/TokenHSI/) |
+| 2025 | ICCV | SIMS | 结合真实脚本规划模拟人-场景交互 | [[paper]](https://arxiv.org/abs/2411.19921) |
+| 2025 | ICLR | InterMask | 协同掩码建模生成 3D 人-人交互 | [[project]](https://gohar-malik.github.io/intermask) |
+| 2025 | CVPR | TIMotion | 高效人-人动作生成的时序交互框架 | [[project]](https://aigc-explorer.github.io/TIMotion-page/) |
+| 2024 | SIGGRAPH Asia | LINGO | 文本指令驱动的自主角色-场景交互合成 | [[project]](https://lingomotions.com/) |
+| 2024 | IJCV | InterGen | 复杂交互下的扩散式多人体动作生成 | [[project]](https://tr3e.github.io/intergen-page/) |
 | 2023 | ICCV | HGHOI | 层次化生成人-物交互(先里程碑再补全),扩散概率模型 | [[paper]](https://zju3dv.github.io/hghoi/files/paper.pdf) [[code]](https://github.com/zju3dv/hghoi) |
 | 2023 | SIGGRAPH Asia | OMOMO | 物体运动引导的人体动作合成,条件扩散 + 接触约束 | [[paper]](https://arxiv.org/abs/2309.16237) [[code]](https://github.com/lijiaman/omomo_release) |
 | 2022 | NeurIPS | HUMANISE | 语言条件的人-场景交互合成 + 大规模数据集 | [[project]](https://silverster98.github.io/HUMANISE/) [[code]](https://github.com/Silverster98/HUMANISE) |
@@ -118,11 +118,11 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | ICCV | StyleMotif | 风格-内容交叉融合的多模态动作风格化 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=StyleMotif+Multi-Modal+Motion+Stylization+Style-Content) |
-| 2025 | Arxiv | Dance Like a Chicken | 低秩风格化用于人体动作扩散 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Dance+Like+a+Chicken+Low-Rank+Stylization+Motion+Diffusion) |
-| 2024 | ECCV | SMooDi | 风格化动作扩散模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SMooDi+Stylized+Motion+Diffusion+Model) |
-| 2024 | CVPR | MCM-LDM | 多条件潜在扩散做任意动作风格迁移 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MCM-LDM+Arbitrary+Motion+Style+Transfer+Latent+Diffusion) |
-| 2024 | CVPR | MoST | 跨不同动作内容的风格 Transformer | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MoST+Motion+Style+Transformer+Diverse+Action) |
+| 2025 | ICCV | StyleMotif | 风格-内容交叉融合的多模态动作风格化 | [[project]](https://stylemotif.github.io/) |
+| 2025 | Arxiv | Dance Like a Chicken | 低秩风格化用于人体动作扩散 | [[project]](https://haimsaw.github.io/LoRA-MDM/) |
+| 2024 | ECCV | SMooDi | 风格化动作扩散模型 | [[project]](https://neu-vi.github.io/SMooDi/) |
+| 2024 | CVPR | MCM-LDM | 多条件潜在扩散做任意动作风格迁移 | [[project]](https://xingliangjin.github.io/MCM-LDM-Web/) |
+| 2024 | CVPR | MoST | 跨不同动作内容的风格 Transformer | [[project]](https://boeun-kim.github.io/page-MoST/) |
 | 2024 | ICLR | GenMoStyle | 在隐空间中做生成式动作风格化,支持无参考风格采样 | [[project]](https://yxmu.foo/GenMoStyle/) |
 | 2022 | TOG | Motion Puzzle | 身体各部位独立的风格迁移,可局部拼接不同风格 | [[paper]](https://arxiv.org/abs/2202.05274) [[code]](https://github.com/DK-Jang/motion_puzzle) |
 | 2020 | SIGGRAPH (TOG) | Aberman et al. | 无配对数据的动作风格迁移,内容/风格解耦的时序网络 | [[project]](https://deepmotionediting.github.io/style_transfer) [[code]](https://github.com/DeepMotionEditing/deep-motion-editing) |
@@ -131,8 +131,8 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2026 | SIGGRAPH | ReActor | 强化学习做物理感知的动作重定向 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=ReActor+Reinforcement+Learning+Physics-Aware+Motion+Retargeting) |
-| 2026 | Arxiv | Skinned Motion Retargeting (SAIG) | 空间自适应交互引导的蒙皮动作重定向 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Skinned+Motion+Retargeting+Spatially+Adaptive+Interaction+Guidance) |
+| 2026 | SIGGRAPH | ReActor | 强化学习做物理感知的动作重定向 | [[paper]](https://arxiv.org/abs/2605.06593) |
+| 2026 | Arxiv | Skinned Motion Retargeting (SAIG) | 空间自适应交互引导的蒙皮动作重定向 | [[paper]](https://arxiv.org/abs/2605.19355) |
 | 2023 | CVPR | R2ET | 残差式神经重定向,兼顾保真与穿模避免 | [[paper]](https://arxiv.org/abs/2303.11951) [[code]](https://github.com/Kebii/R2ET) |
 | 2020 | SIGGRAPH (TOG) | Skeleton-Aware Networks | 骨架感知算子实现不同骨架拓扑间的动作重定向 | [[project]](https://deepmotionediting.github.io/retargeting) [[code]](https://github.com/DeepMotionEditing/deep-motion-editing) |
 | 2018 | CVPR | NKN (Neural Kinematic Networks) | 无监督循环一致性的跨骨架动作重定向 | [[paper]](https://arxiv.org/abs/1804.05653) [[code]](https://github.com/rubenvillegas/cvpr2018nkn) |
@@ -141,12 +141,12 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2026 | SIGGRAPH | MotionBricks | 模块化潜在生成 + 智能基元的实时动作 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionBricks+Real-Time+Modular+Latent+Generative+Model) |
-| 2025 | ICLR | CLoSD | 仿真与扩散闭环做多任务角色控制 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=CLoSD+Closing+Loop+Simulation+Diffusion+Character+Control) |
-| 2025 | ICCV | PRIMAL | 物理反应式、可交互的化身运动模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=PRIMAL+Physically+Reactive+Interactive+Motor+Avatar) |
-| 2025 | SIGGRAPH | SkillMimic-v2 | 从稀疏含噪示范学鲁棒可泛化的交互技能 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SkillMimic-v2+Robust+Generalizable+Interaction+Skills+Demonstrations) |
-| 2025 | CVPR | SkillMimic | 从示范中学习可复用的篮球技能 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SkillMimic+Reusable+Basketball+Skills+Demonstrations) |
-| 2024 | SIGGRAPH | SuperPADL | 渐进监督蒸馏扩展语言指令物理控制 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SuperPADL+Language-Directed+Physics-Based+Control+Distillation) |
+| 2026 | SIGGRAPH | MotionBricks | 模块化潜在生成 + 智能基元的实时动作 | [[paper]](https://arxiv.org/abs/2604.24833) |
+| 2025 | ICLR | CLoSD | 仿真与扩散闭环做多任务角色控制 | [[project]](https://guytevet.github.io/CLoSD-page/) |
+| 2025 | ICCV | PRIMAL | 物理反应式、可交互的化身运动模型 | [[project]](https://yz-cnsdqz.github.io/eigenmotion/PRIMAL/) |
+| 2025 | SIGGRAPH | SkillMimic-v2 | 从稀疏含噪示范学鲁棒可泛化的交互技能 | [[paper]](https://arxiv.org/abs/2505.02094) |
+| 2025 | CVPR | SkillMimic | 从示范中学习可复用的篮球技能 | [[project]](https://ingrid789.github.io/SkillMimic/) |
+| 2024 | SIGGRAPH | SuperPADL | 渐进监督蒸馏扩展语言指令物理控制 | [[paper]](https://arxiv.org/abs/2407.10481) |
 | 2023 | ICCV | PhysDiff | 物理引导的动作扩散,详见第 2 节 | [[project]](https://nvlabs.github.io/PhysDiff/) |
 | 2022 | SIGGRAPH (TOG) | ASE | 大规模无监督技能嵌入,学习可复用的物理角色技能库 | [[project]](https://xbpeng.github.io/projects/ASE/) [[code]](https://github.com/nv-tlabs/ASE) |
 | 2021 | SIGGRAPH (TOG) | AMP | 对抗式动作先验,用判别器替代人工奖励塑造自然风格 | [[project]](https://xbpeng.github.io/projects/AMP/) [[code]](https://github.com/xbpeng/DeepMimic) |
@@ -156,9 +156,9 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | CVPR | GORP | 滚动预测模型做稀疏信号到平滑动作的实时生成 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Rolling+Prediction+Models+Real-Time+Motion+Sparse+Signal) |
-| 2024 | NeurIPS | DiMoP3D | 场景响应的多样化人体动作预测 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=DiMoP3D+Scene-responsive+Diverse+Human+Motion+Prediction) |
-| 2024 | ECCV | CoMusion | 扩散做一致的随机人体动作预测 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=CoMusion+Consistent+Stochastic+Human+Motion+Prediction+Diffusion) |
+| 2025 | CVPR | GORP | 滚动预测模型做稀疏信号到平滑动作的实时生成 | [[project]](https://shape-move.github.io/) |
+| 2024 | NeurIPS | DiMoP3D | 场景响应的多样化人体动作预测 | [[project]](https://sites.google.com/view/dimop3d) |
+| 2024 | ECCV | CoMusion | 扩散做一致的随机人体动作预测 | [[code]](https://github.com/jsun57/CoMusion) |
 | 2023 | ICCV | HumanMAC | 掩码补全视角下的扩散动作预测,单损失端到端 | [[project]](https://lhchen.top/Human-MAC/) [[code]](https://github.com/LinghaoChan/HumanMAC) |
 | 2023 | CVPR | BeLFusion | 隐空间行为解耦的扩散预测,兼顾多样与真实 | [[project]](https://barquerogerman.github.io/BeLFusion/) [[code]](https://github.com/BarqueroGerman/BeLFusion) |
 | 2020 | ECCV | DLow | 多样化隐空间采样,提升未来动作预测的多样性 | [[project]](https://www.ye-yuan.com/dlow) [[code]](https://github.com/Khrylx/DLow) |
@@ -167,13 +167,13 @@
 
 | 年份 | 会议/期刊 | 数据集 | 内容与规模 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | Arxiv | Motion-X++ | 大规模多模态全身人体动作数据集(升级版) | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Motion-X+++Large-Scale+Multimodal+Whole-body+Motion+Dataset) |
-| 2025 | CVPR | InterAct | 大规模、多样化的 3D 人-物交互生成数据 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=InterAct+Large-Scale+Versatile+3D+Human-Object+Interaction) |
-| 2025 | CVPR | CORE4D | 4D 人-物-人协作重排交互数据集 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=CORE4D+4D+Human-Object-Human+Interaction+Collaborative+Rearrangement) |
-| 2025 | ICLR | MotionCritic | 对齐动作生成与人类感知的评测模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionCritic+Aligning+Human+Motion+Generation+Perceptions) |
-| 2025 | Arxiv | Embody 3D | 大规模多模态动作与行为数据集 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Embody+3D+Large-scale+Multimodal+Motion+Behavior+Dataset) |
-| 2024 | ECCV | Nymeria | 大规模多模态第一视角日常动作采集 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Nymeria+multimodal+egocentric+daily+motion+wild) |
-| 2024 | CVPR | Inter-X | 多样化人-人交互分析数据集 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Inter-X+Versatile+Human-Human+Interaction+Analysis) |
+| 2025 | Arxiv | Motion-X++ | 大规模多模态全身人体动作数据集(升级版) | [[paper]](https://arxiv.org/abs/2501.05098) |
+| 2025 | CVPR | InterAct | 大规模、多样化的 3D 人-物交互生成数据 | [[code]](https://github.com/wzyabcas/InterAct) |
+| 2025 | CVPR | CORE4D | 4D 人-物-人协作重排交互数据集 | [[project]](https://core4d.github.io/) |
+| 2025 | ICLR | MotionCritic | 对齐动作生成与人类感知的评测模型 | [[project]](https://motioncritic.github.io/) |
+| 2025 | Arxiv | Embody 3D | 大规模多模态动作与行为数据集 | [[paper]](https://arxiv.org/abs/2510.16258) |
+| 2024 | ECCV | Nymeria | 大规模多模态第一视角日常动作采集 | [[project]](https://www.projectaria.com/datasets/nymeria) |
+| 2024 | CVPR | Inter-X | 多样化人-人交互分析数据集 | [[project]](https://liangxuy.github.io/inter-x/) |
 | 2023 | NeurIPS | Motion-X | 大规模全身表情动作 + 文本数据集,15.6M 帧 | [[project]](https://motion-x-dataset.github.io/) [[code]](https://github.com/IDEA-Research/Motion-X) |
 | 2022 | CVPR | HumanML3D | 文本-动作配对数据集,14616 动作 / 44970 文本 | [[code]](https://github.com/EricGuo5513/HumanML3D) |
 | 2021 | ICCV | AIST++ | 从 AIST 舞蹈重建的 3D 舞蹈动作,配对音乐 | [[project]](https://google.github.io/aistplusplus_dataset/) |
@@ -184,11 +184,11 @@
 
 | 年份 | 会议/期刊 | 方法名 | 解决的问题与核心方案 | 链接 |
 | --- | --- | --- | --- | --- |
-| 2025 | ICCV | PUMPS | 骨架无关的点式通用动作预训练 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=PUMPS+Skeleton-Agnostic+Point-based+Universal+Motion+Pre-Training) |
-| 2025 | CVPR | UniPose | 统一多模态的人体姿态理解/生成/编辑 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=UniPose+Unified+Multimodal+Pose+Comprehension+Generation+Editing) |
-| 2025 | Arxiv | SMPLest-X | 表达性人体姿态与形状估计的极致规模化 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=SMPLest-X+Scaling+Expressive+Human+Pose+Shape+Estimation) |
-| 2024 | ECCV | Sapiens | 人体视觉基础模型 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=Sapiens+Foundation+Human+Vision+Models) |
-| 2024 | Arxiv | MotionLLM | 从动作与视频联合理解人类行为 | [[arxiv]](https://arxiv.org/search/?searchtype=all&query=MotionLLM+Understanding+Human+Behaviors+Motions+Videos) |
+| 2025 | ICCV | PUMPS | 骨架无关的点式通用动作预训练 | [[paper]](https://arxiv.org/abs/2507.20170) |
+| 2025 | CVPR | UniPose | 统一多模态的人体姿态理解/生成/编辑 | [[project]](https://liyiheng23.github.io/UniPose-Page/) |
+| 2025 | Arxiv | SMPLest-X | 表达性人体姿态与形状估计的极致规模化 | [[project]](https://caizhongang.com/projects/SMPLer-X/) |
+| 2024 | ECCV | Sapiens | 人体视觉基础模型 | [[project]](https://www.meta.com/emerging-tech/codec-avatars/sapiens/) |
+| 2024 | Arxiv | MotionLLM | 从动作与视频联合理解人类行为 | [[project]](https://lhchen.top/MotionLLM/) |
 | 2020 | ECCV | VIBE / mocap 系列 | 从视频回归 SMPL 的时序人体重建(参考) | [[code]](https://github.com/mkocabas/VIBE) |
 | 2019 | CVPR | SMPL-X | 扩展身体+手+脸的整体表达人体模型 + VPoser 姿态先验 | [[project]](https://smpl-x.is.tue.mpg.de/) [[code]](https://github.com/vchoutas/smplx) |
 | 2015 | SIGGRAPH Asia (TOG) | SMPL | 线性蒙皮的参数化人体模型(shape + pose blendshape) | [[project]](https://smpl.is.tue.mpg.de/) |
@@ -198,7 +198,8 @@
 ## 更新日志 (Changelog)
 
 - **2026-08-08**:重构为分类表格形式,补充 Text-to-Motion / 扩散 / 音乐驱动 / 交互 / 风格 / 重定向 / 物理 / 预测 / 数据集 / 表征 等方向经典与前沿工作。
-- **2026-08-08**:参考 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion),精选补充约 67 篇 2024–2026 顶会/里程碑工作(链接暂用按标题生成的 arXiv 搜索链,后续逐步替换为直链)。
+- **2026-08-08**:参考 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion),精选补充约 67 篇 2024–2026 顶会/里程碑工作。
+- **2026-08-08**:依据 [Foruck/Awesome-Human-Motion](https://github.com/Foruck/Awesome-Human-Motion) 的原始链接,将上述新增条目的 arXiv 搜索链全部替换为 paper/project/code 直链。
 
 ## 贡献方式 (Contributing)
 
